@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+   
+<head>
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+   
+    <!-- CSS file Included -->
+    <link rel="stylesheet"
+        type="text/css" href="webgame2.css">
+    
+    <title>Game</title>
+</head>
+   
+<body class="background">
+    <div id="main">
+        <h1>TIC TAC TOE</h1>
+   
+        <!-- Game Instructions -->
+        <p id="ins">
+            Game starts by just Tap on box<br>
+            <br>First Player starts as Player X
+            <br>And
+            <br>Second Player as Player 0
+        </p>
+ 
+  
+   
+   
+        <br><br>
+        <!-- 3*3 grid of Boxes -->
+        <input type="text" id="b1" class="boxin" onclick=
+            "myfunc_3(); myfunc();" readonly>
+   
+        <input type="text" id="b2" class="boxin" onclick=
+            "myfunc_4(); myfunc();" readonly>
+   
+        <input type="text" id="b3" class="boxin" onclick=
+            "myfunc_5(); myfunc();" readonly>
+        <br><br>
+   
+        <input type="text" id="b4" class="boxin" onclick=
+            "myfunc_6(); myfunc();" readonly>
+               
+        <input type="text" id="b5" class="boxin" onclick=
+            "myfunc_7(); myfunc();" readonly>
+   
+        <input type="text" id="b6" class="boxin" onclick=
+            "myfunc_8(); myfunc();" readonly>
+        <br><br>
+   
+        <input type="text" id="b7" class="boxin" onclick=
+            "myfunc_9(); myfunc();" readonly>
+   
+        <input type="text" id="b8" class="boxin" onclick=
+            "myfunc_10();myfunc();" readonly>
+   
+        <input type="text" id="b9" class="boxin" onclick=
+            "myfunc_11();myfunc();" readonly>
+   
+        <!-- Grid end here  -->
+        <br><br><br>
+        <!-- Button to reset game -->
+        <button id="but" onclick="myfunc_2()">
+            RESET
+        </button>
+        
+   
+        <br><br>
+        <!-- Space to show player turn -->
+        <p id="print"></p>
+ 
+  
+   
+   
+    </div>
+    <!-- JavaScript file included -->
+    <script src="webgame2.js"></script>
+</body>
+   
+</html>
