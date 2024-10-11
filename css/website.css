@@ -148,7 +148,7 @@ html{
 .section{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     max-width: 80%;
     margin: auto;
 }
